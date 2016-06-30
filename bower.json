@@ -1,0 +1,20 @@
+{
+  "name": "fade-out-fade-in",
+  "version": "1.0.0",
+  "authors": [
+    "JulioMontas <julio86@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#~4.6.3",
+    "jquery": "~3.0.0",
+    "p5.js": "p5js#~0.5.2"
+  }
+}
