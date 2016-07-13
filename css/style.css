@@ -50,6 +50,7 @@ body {
 #center {
   align-items: center;
   display: flex;
+  flex-direction: column;
   height: 100%;
   width: 100%;
   justify-content: center;
@@ -133,6 +134,21 @@ body {
 
 
 
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+li {
+  margin-right: 15px;
+}
 
 
 
