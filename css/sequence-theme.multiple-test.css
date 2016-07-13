@@ -1,0 +1,105 @@
+/*!
+ * Theme Name: Multiple Test
+ * Version: 0.1.0
+ * Theme URL: http://sequencejs.com/themes/multiple-test/
+ *
+ * A theme to test multiple instances
+ *
+ * Powered by Sequence.js - The open-source CSS animation framework.
+ *
+ * Author: Ian Lunn
+ * Author URL: https://ianlunn.co.uk/
+ *
+ * Multiple Test Sequence Theme Copyright (c) Ian Lunn 2014
+ * License: MIT http://opensource.org/licenses/MIT
+ *
+ * Sequence.js and its dependencies are copyright (c) Ian Lunn 2014 unless otherwise stated.
+ */
+
+.seq-pagination .seq-current {
+  border: red solid 1px;
+}
+
+.seq-pause.seq-paused {
+  border: red solid 1px;
+}
+
+.seq1 {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  max-width: 700px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  border: black solid 2px;
+  font-family: sans-serif;
+}
+
+.seq1 .seq-canvas,
+.seq1 .seq-canvas > * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.seq1 .seq-canvas {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.seq1 .seq-canvas > * {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+  text-align: center;
+}
+
+
+
+.seq1 h1,
+.seq1 p{
+  display: block;
+}
+
+
+
+
+.seq1 h1,
+.seq1 p,
+.seq1 img{
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transform: translateZ(0px) scale(0);
+  -ms-transform: translateZ(0px) scale(0);
+  transform: translateZ(0px) scale(0);
+  transition-duration: 0.5s;
+  transition-property: transform, opacity;
+}
+
+.seq1 .seq-in h1,
+.seq1 .seq-in p,
+.seq1 .seq-in img {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  -webkit-transform: translateZ(0px) scale(1);
+  -ms-transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);
+}
+
+.seq1 .seq-out h1,
+.seq1 .seq-out p,
+.seq1 .seq-out img {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transform: translateZ(0px) scale(1);
+  -ms-transform: translateZ(0px) scale(1);
+  transform: translateZ(0px) scale(1);
+}

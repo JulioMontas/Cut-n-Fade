@@ -4,12 +4,6 @@ body {
   background: #1369bb;
 }
 
-
-
-
-
-
-
 #bg-animated {
   background: linear-gradient(270deg, #e12a7f, #1369bb);
   background-size: 400% 400%;
@@ -135,7 +129,7 @@ body {
 
 
 
-a {
+/*a {
     text-decoration: none;
 }
 
@@ -149,7 +143,7 @@ ul {
 li {
   margin-right: 15px;
 }
-
+*/
 
 
 
