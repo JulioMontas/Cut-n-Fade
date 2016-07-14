@@ -5,13 +5,13 @@ var speed;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  for (var i = 0; i < 800; i++) {
+  for (var i = 0; i < 450; i++) {
     stars[i] = new Star();
   }
 }
 
 function draw() {
-  speed = map(800, 0, width, 0, 50);
+  speed = map(450, 0, width, 0, 50);
   background(255);
   translate(width / 2, height / 2);
   for (var i = 0; i < stars.length; i++) {
@@ -48,7 +48,7 @@ function Star() {
 
     this.pz = this.z;
 
-    stroke(19,105,187);
+    stroke(0);
     strokeWeight(2);
     line(px, py, sx, sy);
 

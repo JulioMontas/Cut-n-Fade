@@ -7,75 +7,116 @@
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen, projection"/>
     <link href="bower_components/animate.css/animate.min.css" rel="stylesheet" type="text/css" media="screen, projection"/>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen, projection"/>
-    <link href="css/sequence-theme.multiple-test.css" rel="stylesheet" media="all">
-
+    <link href="css/sequence-theme.cut_n_fade.css" rel="stylesheet" media="all">
     <!-- Javascript: Processing -->
     <script src="bower_components/p5.js/lib/p5.min.js" type="text/javascript"></script>
     <script src="js/sketch.js" type="text/javascript"></script>
   </head>
   <body>
+  <div id="bg-animated"></div>
+    <div id="center" class="poem-text">
 
+      <div id="sequence" class="seq">
+        <ul class="seq-canvas">
 
+          <li class="step1 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Afro.png" alt="" />
+              <h2 class="title">I</h2>
+            </div>
+          </li>
 
+          <li class="step2 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Barba.png" alt="" />
+              <h2 class="title">II</h2>
+            </div>
+          </li>
 
-    <div id="bg-animated"></div>
-      <div id="center" class="poem-text">
+          <li class="step3 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Fade.png" alt="" />
+              <h2 class="title">III</h2>
+            </div>
+          </li>
 
+          <li class="step4 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Flytop.png" alt="" />
+              <h2 class="title">IV</h2>
+            </div>
+          </li>
 
+          <li class="step5 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Hombrecito.png" alt="" />
+              <h2 class="title">V</h2>
+              <p data-seq class="info"> Tu primer peluquero fue un Sr. Español que te pelaba como un hombrecito.<br/>Eras el niño casiblanco de un pequeño suburbio dominicano.</p>
+            </div>
+          </li>
 
-        <div id="sequence1" class="seq1">
-            <ul class="seq-canvas">
+          <li class="step6 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Honguito.png" alt="" />
+              <h2 class="title">Honguito</h2>
+              <p data-seq class="info">Los de pelo bueno se hacían el honguito.<br/>Los de pelo macho se rastrillaban con peine y blower para atrás.</p>
+            </div>
+          </li>
 
+          <li class="step7 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Mayor.png" alt="" />
+              <h2 class="title">Mayor</h2>
+              <p data-seq class="info"> Tu primer peluquero fue un Sr. Español que te pelaba como un hombrecito.<br/>Eras el niño casiblanco de un pequeño suburbio dominicano.</p>
+            </div>
+          </li>
 
-              <li>
-                <img src="img/models/Afro.png" alt="" width="25%" />
-                <h1>Mohawk</h1>
-                <p>Tu primer peluquero fue un Sr. Español que te pelaba como un hombrecito.<br/>eras el niño casiblanco de un pequeño suburbio dominicano.</p>
-              </li>
+          <li class="step8 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Mohawk.png" alt="" />
+              <h2 class="title">Mohawk</h2>
+              <p data-seq class="info"> Te hiciste un mohawk y viste a tu mamá llorar.<br/>Odiabas MTV porque era comercial.<br/>Escuchabas a la polla récords bebiendo Carta Blanca.<br/>Eras punk con un cigarrillo entre los dientes.<br/><br/>- Por qué tu no te hace cerquillo?<br/>- Esa vaina es de tigres. Yo no soy tigre...Soy punk.</p>
+            </div>
+          </li>
 
-              <li>
-                <h1>Peinado: Hombrecito</h1>
-                <p>Tu primer peluquero fue un Sr. Español que te pelaba como un hombrecito.<br/>eras el niño casiblanco de un pequeño suburbio dominicano.</p>
-              </li>
+          <li class="step9 valign">
+            <div class="content">
+              <img class="feature" src="img/models/Split.png" alt="" />
+              <h2 class="title">Split</h2>
+              <p data-seq class="info">Te convertiste en rockero alimentado por MTV latino.<br/>Completa y locamente enamorado de Ruth.</p>
+            </div>
+          </li>
+          <li class="step10 valign">
+            <div class="content">
+              <h2 class="title">Cual es el tu yo</h2>
+              <p data-seq class="info"> Show the data that people had pick.</p>
+            </div>
+          </li>
 
-              <li>
-                <h1>Peinado: Hombrecito</h1>
-                <p>Tu primer peluquero fue un Sr. Español que te pelaba como un hombrecito.<br/>eras el niño casiblanco de un pequeño suburbio dominicano.</p>
-              </li>
-
-              <li>
-                <h1>Peinado: Hombrecito</h1>
-                <p>Tu primer peluquero fue un Sr. Español que te pelaba como un hombrecito.<br/>eras el niño casiblanco de un pequeño suburbio dominicano.</p>
-              </li>
-
-
-            </ul>
-        </div>
-
-
-
-        <!-- Global Nav Buttons -->
-        <div class="seq-pagination">
-          <button>Mohawk</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-        </div>
-
-
-
+        </ul>
       </div>
+
+      <!-- Global Nav Buttons -->
+      <!-- <div class="seq-pagination">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+      </div> -->
+
+
+
     </div>
-
-
-
-
-
-
-    <!-- Javascript: Seuquence -->
-    <script src="bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="bower_components/hammerjs/hammer.min.js"></script>
-    <script src="bower_components/sequencejs/scripts/sequence.min.js"></script>
-    <script src="js/sequence-theme.multiple-test.js"></script>
+  </div>
+  <!-- Javascript: Seuquence -->
+  <script src="bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="bower_components/hammerjs/hammer.min.js"></script>
+  <script src="bower_components/sequencejs/scripts/sequence.min.js"></script>
+  <script src="js/sequence-theme.cut_n_fade.js"></script>
   </body>
 </html>
