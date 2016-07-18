@@ -1,4 +1,3 @@
-console.log("hello")
 // Get the Sequence element
 var sequenceElement = document.getElementById("sequence");
 
@@ -23,10 +22,10 @@ function updateButtons(buttons, text) {
   }
 }
 
-mySequence1.stopped = function() {
-  updateButtons(mySequence1.$autoPlay, "Start");
-}
-
-mySequence1.started = function() {
-  updateButtons(mySequence1.$autoPlay, "Stop");
-}
+// mySequence1.stopped = function() {
+//   updateButtons(mySequence1.$autoPlay, "Start");
+// }
+//
+// mySequence1.started = function() {
+//   updateButtons(mySequence1.$autoPlay, "Stop");
+// }
